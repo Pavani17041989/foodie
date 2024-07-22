@@ -1,0 +1,297 @@
+body{
+    background-image: url(./images/hero-bg.jpg);
+    height:800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+   
+}
+header{
+    border-bottom: 1px solid white;
+    
+   
+    
+    
+}
+.container-head{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    width:100%;
+   
+}
+ h1{
+    
+   
+    color: white;
+    
+    
+}
+nav{
+    display:inline-flex;
+}
+ li a{
+    
+    display: inline;
+    width:100px;
+  
+    height:100px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    margin-left: 60px;
+    
+}
+
+.text{
+    width:50%;
+    margin-left: 100px;
+    
+}
+.text h4{
+    font-size: xx-large;
+    color:darkorange !important;
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 150px;
+}
+.text h1{
+    font-size:80px;
+    color: wheat;
+    margin-top:-20px;
+}
+.text p{
+    width:600px;
+    font-size:x-large;
+    color: wheat;
+    margin-top: -10px;
+}
+.banner-section{
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-bottom: 17px;
+}
+.image-1 {
+    position: relative;
+    right:0px;
+    z-index: 1;
+    width: 750px;
+    height: 850px;
+    bottom: 0px;
+    margin-bottom: -66px;
+    margin-right: 0px;
+    margin-top:-57px;
+}   
+
+.image-2 {
+    position: absolute;
+    margin-top: 94px; 
+   
+    margin-left: 830px;
+    width: 615px;
+    height: 650px;
+    z-index: 2;
+    margin-bottom: 0px;
+}
+
+.image-3{
+    position: absolute;
+    
+    margin-left: 605px;
+    width:900px;
+    height: 700px;
+    z-index: 0;
+    margin-top: 45px;    
+    
+}
+.promo-section{
+    width:100%;
+    height:800px;
+    display: flex;
+    background-color:rgb(240, 228, 205);   
+    justify-content: center; 
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.promo-1{
+    width:300px;
+    height:600px;
+    background-color:white;
+    margin-left: 100px;
+    margin-top: 100px;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+   
+}
+.promo-1 h3{
+    margin-top: 140px;
+    height:20px;
+}
+
+.promo-1 img{
+    margin-top: 130px;
+    width:200px;
+    height: 200px;
+   
+}
+.promo-2{
+    width:300px;
+    height:600px;
+    background-color:white;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.promo-2 h3{
+    margin-top: 140px;
+}
+.promo-2 img{
+    margin-top: 130px; 
+    width:200px;
+    height: 200px;
+}
+.promo-3{
+    width:300px;
+    height:600px;
+    background-color:white;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.promo-3 h3{
+    margin-top: 140px;
+}
+.promo-3 img{    
+    margin-top: 130px;
+    width:200px;
+    height: 200px;
+}
+.promo-4{
+    width:300px;
+    height:600px;
+    background-color:white;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 100px;
+    margin-right:100px;
+    
+    
+}
+.promo-4 h3{
+    margin-top: 140px;
+}
+.promo-4 img{
+    margin-top: 130px;    
+    width:200px;
+    height: 200px; 
+      
+
+}
+/* .box{
+    width:300px;
+    height:200px;
+    margin-top:-151px;
+    clip-path: polygon(0 66%, 100% 38%, 100% 100%, 0% 100%);
+    background-color: orange;
+   
+}
+.box:hover{
+    width:300px;
+    height:600px;
+} */
+.offers{
+    width:100%;
+    height:800px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.offer-image{
+    width: 500px;
+    margin-top: 100px;
+    margin-right:100px;
+    
+}
+.offer-text{
+    width: 500px;
+    height:800px;
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 100px;
+}
+.offer-text h1{
+  color: black;
+  margin-top: 130px;
+  
+  font-size: 50px;
+    
+}
+.offer-text a{
+    font-size:medium;
+}
+.offer-text ul{
+    margin-top:40px;
+   
+}
+.offer-text li {
+    
+    font-size:medium;
+}
+.foods{
+    width:100%;
+    height:1000px;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto ;
+    align-items: center;
+    justify-content: space-around;
+}
+.food-text{
+    width: 100%;
+    height:300px;
+}
+.food-1{
+    width:300px;
+    height:450px;
+    background-color:white;
+   
+}
+.food-2{
+    width:300px;
+    height:450px;
+    background-color:white;
+   
+}
+.food-3{
+    width:300px;
+    height:450px;
+    background-color:white;
+   
+}
+.food-4{
+    width:300px;
+    height:450px;
+    background-color:white;
+   
+}
+.food-5{
+    width:300px;
+    height:450px;
+    background-color:white;
+   
+}
+.food-6{
+    width:300px;
+    height:450px;
+    background-color:white;
+   
+}
+
+
+
